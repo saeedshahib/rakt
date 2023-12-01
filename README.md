@@ -42,13 +42,13 @@ Before you begin, ensure you have met the following requirements:
      source venv/bin/activate
 
 2. **Install Requirements**
-   Install the required packages using pip:
+   - Install the required packages using pip:
     ```bash
     cd foodfinder/
     pip install -r requirements.txt
 
 3. **Create and Apply Migrations**
-   Create the migrations for your database schema:
+   - Create the migrations for your database schema:
    ```bash
    python manage.py makemigrations
    python manage.py migrate
